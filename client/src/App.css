@@ -1,4 +1,14 @@
 /* App.css */
+body {
+  background: url('D:/QueryBot/background.gif') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 100vh;
+  margin: 100;
+}
+
 .app {
   display: flex;
   flex-direction: column;
@@ -6,13 +16,16 @@
   justify-content: center;
   height: 100vh;
   font-size: 40px;
+  margin-left: 60px;
 }
 
 .chatbot {
-  width: 700px;
+  width: 1000px;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 20px;
+  
+  
 }
 
 .message-container {
