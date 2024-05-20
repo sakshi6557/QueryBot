@@ -4,6 +4,7 @@ import ChatBot from './components/ChatBot.js';
 import './App.css';
 
 const App = () => {
+  
   const sendMessage = (message) => {
   console.log('Sending message:', message);
   };
